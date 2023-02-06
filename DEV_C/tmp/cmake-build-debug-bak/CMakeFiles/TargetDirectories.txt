@@ -1,0 +1,3 @@
+/Users/gaorj/CLionProjects/TraningC/cmake-build-debug/CMakeFiles/TraningC.dir
+/Users/gaorj/CLionProjects/TraningC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/gaorj/CLionProjects/TraningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

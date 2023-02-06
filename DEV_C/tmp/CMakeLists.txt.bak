@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(TraningC)
+
+set(CMAKE_C_STANDARD 17)
+set(Linux "/Users/gaorj/CLionProjects/linux/include")
+set(BASE "/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/")
+set(BASECPLUS "/Library/Developer/CommandLineTools/usr/include/c++/v1/")
+set(UNP "/Users/gaorj/CLionProjects/unpv13e/lib")
+include_directories(
+        ${Linux}
+        ${BASE}
+        ${BASECPLUS}
+        ${UNP}
+)
+
+add_executable(TraningC main.c unixNetwork1/capter1-overview/daytimetcpcli.c LinuxC/server.c LinuxC/client.c LinuxC/unix_sock_ipc.c Kubernetes_Network/LinuxNetwork/simple_tun.c)

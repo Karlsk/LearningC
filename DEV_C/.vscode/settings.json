@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "cstring": "c",
+        "chrono": "cpp",
+        "*.ipp": "cpp"
+    }
+}
